@@ -3,20 +3,19 @@
 | Campo | Valor |
 |---|---|
 | **ID** | REQ-NNN |
-| **Estado** | Borrador · En revisión · Aprobado |
+| **Estado** | Borrador · Cerrado |
 | **Versión** | 1.0 |
 | **Fecha** | AAAA-MM-DD |
 | **Depende de** | REQ-XXX · Ninguno |
 
-## 1. Contexto e Historia de Usuario
+## 1. Contexto
 
-[2–4 líneas sobre el problema de negocio y por qué se aborda ahora.]
+[2–4 líneas: quién lo usa, qué problema resuelve y qué beneficio busca.]
 
-- **Como** [tipo de usuario]
-- **Quiero** [realizar una acción]
-- **Para** [obtener un beneficio de negocio]
+- **Comportamiento actual** *(opcional)*: [Cómo se resuelve hoy, si el requisito modifica algo que ya existe.]
+- **Medida de éxito** *(opcional)*: [Cómo se comprobará que se ha logrado el beneficio, distinto de la aceptación.]
 
-## 2. Actores
+## 2. Actores *(opcional: solo si hay más de uno o con permisos distintos)*
 
 | Actor | Descripción | Permisos relevantes |
 |---|---|---|
@@ -54,13 +53,13 @@
 
 - [Funcionalidad descartada para esta iteración.]
 
-## 9. Criterios de Aceptación (Definition of Done)
+## 9. Criterios de Aceptación
 
-- [ ] **CA-01** → RF-01, RF-02
+- **CA-01** → RF-01, RF-02
   - **Dado** [contexto inicial]
   - **Cuando** [acción]
   - **Entonces** [resultado observable]
-- [ ] **CA-02** → CB-01
+- **CA-02** → RN-01, CB-01
   - **Dado** [contexto inicial]
   - **Cuando** [acción]
   - **Entonces** [resultado observable]
@@ -71,7 +70,7 @@
 - **SUP-01**: [Lo que se da por cierto sin haberlo confirmado.]
 
 **Preguntas abiertas**
-- **PA-01**: [Duda pendiente, con el responsable de resolverla si se conoce.]
+- **PA-01**: [Duda pendiente.]
 
 ## 11. Glosario *(opcional)*
 
